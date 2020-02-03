@@ -1,0 +1,82 @@
+/* Styles go here */
+.table-wraper {	
+	width: 320px;
+	margin: 50px auto;
+	font-family: source_sans_probold,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,arial,helvetica,sans-serif;
+}
+table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	border: 3px solid #004fb6;
+	position: relative;
+}
+
+th,td {
+  padding: 5px 10px;
+}
+
+thead {
+	font-size: .725em;
+	text-align: left;
+	color: #000;
+}
+
+th {
+  font-weight: bold;
+  text-align: left;
+}
+
+td {
+  border-bottom: 1px solid #cecfd5;  
+}
+
+tfoot th {
+	padding: 16px;
+}
+.col-left-header {
+	font-weight: bold;
+	text-align: left;
+	vertical-align: bottom;
+}
+.col-right-header {
+	background: #eee;
+	font-weight: bold;
+}
+.fa-angle-up {
+	color: #004fb6;
+	font-size: 2em;
+	padding-right: 5px;
+	position: absolute;
+	right: 90px;
+    top: 0px;
+}
+.col-left,.col-right {
+	font-weight: bold;
+	width: 50%;
+}
+.col-left,.col-center {
+	color: #004fb6;
+	font-weight: bold;
+}
+.col-right,.col-right-header {
+	text-align: right;
+}
+.col-center {
+	text-align: center;
+	margin: 10px;
+}
+th:last {
+	padding: 10px;
+}
+.loss-text {
+	color: red;
+	font-size: .725em;
+}
+.gain-text {
+	color: #008f00;
+	font-size: .725em;
+}
+h4,p {
+text-align: center;
+}
